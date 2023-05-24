@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Arial', cursive;
+    color: white;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+  }
+  
+  h1 > span {
+    color: purple;
+    animation: bopB 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+  }
+  
+  @keyframes bop {
+    0% {
+      transform: scale(0.9);
+    }
+    50%, 100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes bopB {
+    0% {
+      transform: scale(0.9);
+    }
+    80%, 100% {
+      transform: scale(1) rotateZ(-3deg);
+    }
+  }
+  

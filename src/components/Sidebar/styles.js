@@ -23,7 +23,7 @@ export const Container = styled.div`
   @keyframes showSidebar {
     from {
       opacity: 0;
-      width: 0;
+      width: 30;
     }
     to {
       opacity: 1;

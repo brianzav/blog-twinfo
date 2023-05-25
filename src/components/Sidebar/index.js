@@ -1,25 +1,36 @@
-import React from 'react'
-import { Container, Content } from './styles'
+import React from 'react';
+import { Container, Content } from './styles';
 import { 
   FaTimes, 
   FaHome, 
   FaUserAlt,  
   FaRegFileAlt,
   FaRegCalendarAlt
-} from 'react-icons/fa'
-import SidebarItem from '../SidebarItem'
+} from 'react-icons/fa';
+import SidebarItem from '../SidebarItem';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+// Estilize o componente Container com a fonte desejada
+const StyledContainer = styled(Container)`
+  font-family: Arial, sans-serif; /* Substitua por sua fonte desejada */
+`;
+
+// Estilize o componente Content com a fonte desejada
+const StyledContent = styled(Content)`
+  font-family: Arial, sans-serif; /* Substitua por sua fonte desejada */
+`;
 
 const Sidebar = ({ active }) => {
 
   const closeSidebar = () => {
-    active(false)
+    active(false);
   }
 
   return (
-    <Container sidebar={active}>
+    <StyledContainer sidebar={active}>
       <FaTimes onClick={closeSidebar} />  
-      <Content>
+      <StyledContent>
 
         <Link to="/menu">
           <SidebarItem Icon={FaHome} Text="Menu" />
@@ -37,8 +48,9 @@ const Sidebar = ({ active }) => {
           <SidebarItem Icon={FaRegFileAlt} Text="Notícias" />
         </Link>
 
-      </Content>
-    </Container>
-  )
+      </StyledContent>
+    </StyledContainer>
+  );
 }
-export default Sidebar
+
+export default Sidebar;

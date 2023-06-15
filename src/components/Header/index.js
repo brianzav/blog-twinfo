@@ -14,7 +14,7 @@ const Headerr = () => {
   return (
     
     <>
-      <body class="sidebar">
+      <body class="sidebar close">
         <header>
         <div class="image-text">
           <span class="image">

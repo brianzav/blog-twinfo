@@ -1,12 +1,18 @@
+import React from "react";
+import Main from '../../components/Main';
+
 function Noticias(){
     return(
-        <div>
-            <h2>AQUI E PAGINA DE NOTICIAS</h2>
-        </div>
+        
+    <div>
+        
+        
+        
+    </div>
 
 
     )
 
+    }
 
-}
 export default Noticias;

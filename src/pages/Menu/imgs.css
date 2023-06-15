@@ -1,11 +1,19 @@
 .listarea {
     display: flex;
-    padding-left: 90px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
  }
 
  .itens {
-     display: inline-block;
-     width: flex;
+     padding-left: 90px;
+     display: flex;
+     width: 100%;
+     margin-top: -150px;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     align-content: flex-end;
+
  }
  
  .itens img {
@@ -18,3 +26,20 @@
  .itens img:hover {
      transform: scale(1);
  }
+.filtro{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    color: aliceblue;
+    
+      
+}
+.roxo{
+    color: #695cfe;
+}

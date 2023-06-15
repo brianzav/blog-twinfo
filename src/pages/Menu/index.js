@@ -10,13 +10,17 @@ import lol from '../../img/Lol.png';
 import rocketleague from '../../img/Rocket.png';
 import r6 from '../../img/R6.png';
 import './imgs.css';
+import Main from '../../components/Main';
 
 function Menu() {
   return (
     
     <div class="listarea">
+      <Main/> 
+      <h2>
+        <span class="filtro">Escolha a Categoria de Streamers</span>
+      </h2>
       <div class="itens">
-        
           <Link to="/menu/csgo">
             <img src={csgo} alt='descrição' width={290} />
           </Link>
@@ -52,6 +56,7 @@ function Menu() {
           <Link to="/menu/rainbowsix">
             <img src={r6} alt='descrição' width={290} />
           </Link>
+      
       </div>
     </div>
   );

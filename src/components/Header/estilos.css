@@ -11,7 +11,7 @@
 
 :root {
     /* ==== Cores ====*/
-    --bory-color: #c9c9c9;
+    --bory-color: #3b3b3b;
     --sidebar-color: #fff;
     --prymary-color: #695cfe;
     --primary-color-light: #f6f5ff;
@@ -30,6 +30,7 @@
 }
 body{
   height: 100vh;
+  width: 100%;
   background: var(--bory-color);
 
 }

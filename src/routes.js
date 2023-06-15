@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Menu from './pages/Menu';
 import Noticias from './pages/Noticias';
 import Streamer from './pages/Streamer';
-import Csgo from './pages/Jogos/Csgo';
 import Header from './components/Header'
+import Csgo from './pages/Jogos/Csgo';
 import Fortnite from './pages/Jogos/Fortnite';
 import Warzone from './pages/Jogos/Warzone';
 import Valorant from './pages/Jogos/Valorant';
@@ -33,7 +33,7 @@ function RouterApp(){
                 <Route exact path="/menu/leagueoflegends" element={<LeagueOfLegends/>} />
                
 
-
+           
             </Routes>
         </Router>
     );

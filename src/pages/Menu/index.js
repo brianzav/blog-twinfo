@@ -14,9 +14,9 @@ import './imgs.css';
 function Menu() {
   return (
     
-    <div className="listarea">
-      <div className="itens">
-        <h2>
+    <div class="listarea">
+      <div class="itens">
+        
           <Link to="/menu/csgo">
             <img src={csgo} alt='descrição' width={290} />
           </Link>
@@ -52,8 +52,6 @@ function Menu() {
           <Link to="/menu/rainbowsix">
             <img src={r6} alt='descrição' width={290} />
           </Link>
-
-        </h2>
       </div>
     </div>
   );

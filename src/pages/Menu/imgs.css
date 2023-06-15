@@ -1,17 +1,18 @@
 .listarea {
-    padding-left: 20px; 
+    display: flex;
+    padding-left: 90px;
  }
- 
+
  .itens {
      display: inline-block;
-     width: 1500px;
+     width: flex;
  }
  
  .itens img {
      width: 290px;
      transform: scale(0.9);
      transition: all ease 0.2s;
-     border: 5px solid #262626;
+     border: 5px solid #695cfe;
  }
  
  .itens img:hover {

@@ -1,35 +1,232 @@
-h1 {
-    font-family: 'Arial', cursive;
-    color: white;
-    font-size: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    cursor: pointer;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+    /* ==== Cores ====*/
+    --bory-color: #c9c9c9;
+    --sidebar-color: #fff;
+    --prymary-color: #695cfe;
+    --primary-color-light: #f6f5ff;
+    --toggle-color: #ddd;
+    --text-color: #707070;
+
+
+    /* ==== Transição ==== */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+
+
+
+}
+body{
+  height: 100vh;
+  background: var(--bory-color);
+
+}
+
+ /* ==== Sidebar ==== */
+ .sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  padding: 10px 14px;
+  background: var(--sidebar-color);
+  transition: var(--tran-05);
+  z-index: 100;
+}
+
+.sidebar.close{
+  width: 88px;
+}
+
+ /* ==== Resuable CSS ==== */
+  .sidebar .text{
+    font-size:16px;
+    font-weight: 500;
+    color: var(--text-color);
+    transition: var(--tran-03);
+    white-space:nowrap;
+    opacity: 1;
   }
-  
-  h1 > span {
-    color: purple;
-    animation: bopB 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+
+  .sidebar.close .text{
+    opacity: 0;
   }
-  
-  @keyframes bop {
-    0% {
-      transform: scale(0.9);
-    }
-    50%, 100% {
-      transform: scale(1);
-    }
+
+  .sidebar .image{
+    min-width: 50px;
+    display: flex;
+    align-items: center;
   }
-  
-  @keyframes bopB {
-    0% {
-      transform: scale(0.9);
-    }
-    80%, 100% {
-      transform: scale(1) rotateZ(-3deg);
-    }
-  }
-  
+
+.sidebar li{
+  height: 50px;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.sidebar li .icon{
+    display: flex;
+    align-items: center;
+    min-width: 60px;
+    font-size: 20px;
+}
+
+.sidebar li .icon,
+.sidebar li .text{ 
+    color: var(--text-color);
+    transition: var(--tran-02);
+
+}
+.sidebar header{
+  position: relative;
+}
+
+.sidebar .image-text img{
+  width: 40px;
+  border-radius: 6px;
+}
+
+.sidebar header .image-text{
+  display: flex;
+  align-items: center;
+}
+
+header .image-text .header-text{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header-text .name{
+  font-weight: 700;
+}
+
+.header-text .profession{
+  margin-top: -5px;
+}
+
+.sidebar header .toggle{
+  position: absolute;
+  top:50%;
+  right: -25px;
+  transform: translateY(-50%) rotate(180deg);
+  height: 25px;
+  width: 25px;
+  background: #65469c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--sidebar-color);
+  font-size: 22px;
+  transition: var(--tran-03);
+}
+
+.sidebar.close header .toggle{
+  transform: translateY(-50%);
+}
+
+.sidebar li a{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: var(--tran-04);
+}
+
+.sidebar li a:hover{
+  background: var(--prymary-color);
+}
+
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+  color: var(--sidebar-color);
+
+}
+
+.sidebar .menu-bar{
+
+  height: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.menu-bar .mode{
+  position: relative;
+  border-radius: 6px;
+  background: var(--primary-color-light);
+}
+
+
+.menu-bar .mode .toggle-switch{
+  position: absolute;
+  right: 0;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 60px;
+  cursor: pointer;
+  background: var(--primary-color-light);
+}
+
+.toggle-switch .switch{
+  position: relative;
+   height: 22px;
+   width: 44px;
+   border-radius: 25px;
+   background: var(--toggle-color);
+}
+
+.switch::before{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  background: var(--sidebar-color);
+  transition: var(--tran-03);
+
+}
+
+body.dark .switch::before{
+  left: 25px;
+
+}
+
+.home{
+  position: relative;
+  left: 250px;
+  height: 100vh;
+  width: calc(100% - 250px);
+  transition: var(--tran-05);
+
+}
+.sidebar.close ~ .home{
+
+  left: 88px;
+  width: calc(100% - 88px);
+}

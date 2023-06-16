@@ -28,44 +28,34 @@ function Gaules(){
                 </div>
                 
             </div>
-            <div class="bio"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan diam in odio bibendum posuere. 
-                            Pellentesque at aliquet odio. Cras semper pharetra magna, sit amet fermentum nunc aliquet id. Aliquam bibendum a neque rutrum dictum. 
-                            Pellentesque fermentum nibh eget sapien mattis tincidunt. Suspendisse lobortis odio eget varius tristique. Duis arcu tortor, dignissim at sem nec,
-                             volutpat ultricies tortor.
-                            Aenean arcu nunc, tincidunt sed metus id, hendrerit semper diam. Sed cursus nibh in lacus ultrices faucibus. Aenean tempor nunc nec dui mollis, 
-                            vitae porttitor nibh tempor. Duis venenatis turpis sapien, id porttitor eros interdum et. Fusce et lectus est. Proin orci sem, dignissim non turpis volutpat, 
-                            maximus tincidunt ex. Nulla eros turpis, congue sit amet imperdiet eget, varius vitae libero. Proin vehicula neque non sem gravida molestie.
-                             Suspendisse congue est id faucibus fringilla. Donec in scelerisque libero. Cras eleifend lectus eu lacus elementum faucibus. Phasellus felis eros,
-                              volutpat nec eros non, elementum feugiat mauris. Aliquam facilisis sit amet nisl vitae efficitur. Donec convallis dolor sed pellentesque elementum.
-                            Vivamus non eros ut elit vulputate tincidunt. Aenean gravida malesuada nulla, quis iaculis odio cursus vel. Mauris non felis magna. Donec dignissim turpis mauris,
-                             a dignissim sem blandit id. Fusce ut velit nec leo scelerisque viverra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                              Duis convallis turpis quis nunc volutpat efficitur. Donec porttitor eget est at hendrerit. Suspendisse sit amet magna malesuada, feugiat dolor eu, semper eros.
-                               Maecenas nec volutpat mi, sed faucibus arcu. Morbi mattis ligula sit amet efficitur lacinia. Pellentesque ultrices eget ligula quis sagittis.
-                                Maecenas commodo ante nec turpis molestie, ut aliquam ex pulvinar. In euismod arcu mauris, vitae blandit elit aliquet quis.
-                            Duis ullamcorper ante iaculis dui hendrerit vehicula. Mauris commodo ipsum vel lectus rhoncus pulvinar. Integer ut pretium ligula.
-                             Nulla at sem erat. Vivamus elementum in quam ut ornare. Nullam eu laoreet mauris, ut aliquam turpis. Praesent aliquet venenatis sapien,
-                              eu vulputate lectus ultrices eu. Cras lacinia ullamcorper condimentum.
-                            Donec nisl quam, cursus ac suscipit vel, ornare a purus. Pellentesque et est sapien. 
-                            Etiam sed tempus lorem. Nullam vitae pharetra enim, eget tempus velit.
-                             Nam malesuada ligula et elit suscipit, at dapibus mi pretium. Sed vel sapien magna. Nullam blandit pharetra mollis.
-                              Aenean a pharetra urna. Morbi posuere semper ornare. Mauris consequat risus ultricies varius tincidunt. Proin arcu nisl,
-                               pulvinar sit amet semper ac, faucibus at nisl.</span></div>
+            <div class="bio"><span>Gaules é um conhecido streamer e personalidade dos esportes eletrônicos (esports) do Brasil. Seu nome real é Alexandre Borba e ele é especialmente conhecido por seu conteúdo de streaming de Counter-Strike: Global Offensive (CS:GO).
+
+Gaules se destaca por seu carisma e estilo de entretenimento ao vivo durante as transmissões de suas partidas e eventos relacionados ao CS:GO. Ele conseguiu construir uma grande comunidade de seguidores no Twitch e no YouTube, sendo considerado um dos streamers mais populares do Brasil.
+
+Além de transmitir suas próprias partidas, Gaules também cobriu torneios de CS:GO, fornecendo comentários ao vivo e análises dos confrontos. Sua participação ativa e entusiasmo pelo jogo têm contribuído para sua popularidade.<br/>
+
+Gaules também realizou diversas iniciativas beneficentes e de caridade. Em 2020, ele organizou um evento de caridade chamado "Gaules pela Vida", onde arrecadou fundos para ajudar a combater os efeitos da pandemia de COVID-19 no Brasil.
+Título: Streamer Brasileiro Gaules Bate Recorde de Espectadores na Twitch Transmitindo o Mundial de CS:GO
+
+São Paulo, Brasil - Em um feito extraordinário para a comunidade gamer brasileira, o renomado streamer brasileiro Gaules alcançou um marco notável ao quebrar o recorde mundial de espectadores simultâneos na plataforma Twitch durante sua transmissão exclusiva do Campeonato Mundial de Counter-Strike: Global Offensive (CS:GO). Com uma audiência impressionante, Gaules deixou sua marca na história dos esports ao atrair mais de 750 mil espectadores simultâneos e proporcionar uma experiência emocionante para os fãs do jogo e da comunidade brasileira.
+
+A transmissão, realizada no último domingo, registrou um pico de mais de 750 mil espectadores simultâneos, superando o recorde anterior estabelecido por um streamer norte-americano. O feito de Gaules reforça a crescente importância do Brasil na cena competitiva de CS:GO e coloca o país no mapa global dos esports.</span></div>
             
             </div>
             <div class='icon1'>
 
-                <a href="#" class="btn">
+                <a href="https://www.facebook.com/gaules/?locale=pt_BR" class="btn">
 
                 <BsFacebook class="i"/>
 
                     </a>
 
-                    <a href="#" class="btn">
+                    <a href="https://www.twitch.tv/gaules" class="btn">
                     <BsTwitch class="i"/>
 
                     </a>
 
-                    <a href="#" class="btn">
+                    <a href="https://twitter.com/Gaules" class="btn">
                     <BsTwitter class="i"/>
 
                     </a>

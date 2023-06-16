@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Menu from './pages/Menu';
-import Noticias from './pages/Noticias';
+import Sobre from './pages/sobre';
 import Streamer from './pages/Streamer';
 import Header from './components/Header'
 import Csgo from './pages/Jogos/Csgo';
@@ -47,7 +47,7 @@ import Stolen from './pages/Jogos/Warzone/stolen/stolen';
 import Renegada from './pages/Jogos/Warzone/renegada';
 import Rayana from './pages/Jogos/Warzone/rayana';
 import Snarf from './pages/Jogos/Warzone/snarf/snarf';
-
+import Fale from './pages/fale-conosco/index';
 
 function RouterApp(){
     return (
@@ -55,8 +55,9 @@ function RouterApp(){
             <Header/>
             <Routes>
                 <Route exact path="/" element={<Menu />} />
-                <Route exact path="/noticias" element={<Noticias />} />
+                <Route exact path="/sobre" element={<Sobre />} />
                 <Route exact path="/streamer" element={<Streamer />} />
+                <Route exact path="/fale-conosco" element={<Fale />} />
                 <Route exact path="/menu/csgo" element={<Csgo />} />
                 <Route exact path="/menu/fortnite" element={<Fortnite />} />
                 <Route exact path="/menu/warzone" element={<Warzone/>} />

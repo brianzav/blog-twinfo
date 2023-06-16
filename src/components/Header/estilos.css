@@ -115,6 +115,7 @@ header .image-text .header-text{
 }
 
 .header-text .name{
+  padding-right: 11vh;
   font-weight: 700;
 }
 

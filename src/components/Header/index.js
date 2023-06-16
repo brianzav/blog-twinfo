@@ -44,36 +44,18 @@ const Headerr = () => {
               </Link>
             </li>
             <li class="nav-link">
-              <Link to="/noticias">
+              <Link to="/fale-conosco">
                 <BiBell class="icon"></BiBell>
-                <span class="text nav-text">Noticias</span>
+                <span class="text nav-text">Fale Conosco</span>
               </Link>
             </li>
             <li class="nav-link">
-              <a href="#">
+              <a href="/sobre">
                 <BiMessageAltError class="icon"></BiMessageAltError>
                 <span class="text nav-text">Sobre</span>
               </a>
             </li>
-            <li class="nav-link">
-              <a href="#">
-                <BiHome class="icon"></BiHome>
-                <span class="text nav-text">Dashboard</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <BiHome class="icon"></BiHome>
-                <span class="text nav-text">Dashboard</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <BiHome class="icon"></BiHome>
-                <span class="text nav-text">Dashboard</span>
-              </a>
-
-            </li>
+            
           </ul>
         </div>
       </div>

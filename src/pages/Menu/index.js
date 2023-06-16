@@ -21,9 +21,7 @@ function Menu() {
     <div class='filtro'>
         <h2>Escolha a <span> Categoria </span> de Streamers</h2>
         <img src={gau} class="noticia"></img>
-        <Link to="/noticias">
-        <button class="button-6" role="button">Mais informações</button>
-        </Link>
+        
     </div>
       <div class="itens">
           <Link to="/menu/csgo">

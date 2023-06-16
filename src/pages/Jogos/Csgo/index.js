@@ -4,25 +4,27 @@ import gaules from '../../../imgStreamer/Gaules.png';
 import mch from '../../../imgStreamer/Michel.png';
 import apoka from '../../../imgStreamer/Apoka.png';
 import lima from '../../../imgStreamer/liminha.png';
+import '../../Streamer/streamers.css';
+
 
 function Csgo(){
     return(
-        <div class="listarea">
-        <div class="itens">
+        <div class="listarea-s">
+        <div class="itens-s">
           
-            <Link to="/menu/csgo">
+            <Link to="/menu/csgo/gaules">
               <img src={gaules} alt='descrição' width={290} />
             </Link>
   
-            <Link to="/menu/fortnite">
+            <Link to="/menu/csgo/michel">
               <img src={mch} alt='descrição' width={290} />
             </Link>
   
-            <Link to="/menu/valorant">
+            <Link to="/menu/csgo/apoka">
               <img src={apoka} alt='descrição' width={290} />
             </Link>
   
-            <Link to="/menu/warzone">
+            <Link to="/menu/csgo/liminha">
               <img src={lima} alt='descrição' width={290} />
             </Link>
   

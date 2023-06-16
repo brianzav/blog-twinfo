@@ -3,9 +3,7 @@ import logo from '../../img/logo.png';
 import { BiChevronsRight, BiMessageAltError, BiGroup, BiJoystick, BiHome, BiBell} from "react-icons/bi";
 import  Script from "./script1";
 import { Link } from 'react-router-dom';
-import Menu from '../../pages/Menu/index.js';
-import Noticias from '../../pages/Noticias';
-import Streamer from '../../pages/Streamer';
+
 
 
 const Headerr = () => {

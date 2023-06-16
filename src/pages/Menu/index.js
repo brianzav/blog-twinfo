@@ -26,39 +26,39 @@ function Menu() {
         </Link>
     </div>
       <div class="itens">
-          <Link to="/csgo">
+          <Link to="/menu/csgo">
             <img src={csgo} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/fortnite">
+          <Link to="/menu/fortnite">
             <img src={fornite} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/valorant">
+          <Link to="/menu/valorant">
             <img src={valorant} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/warzone">
+          <Link to="/menu/warzone">
             <img src={warzone} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/fifa">
+          <Link to="/menu/fifa">
             <img src={fifa} alt='descrição' width={290} />
           </Link>
 
-          <Link to="//gtav">
+          <Link to="/menu/gtav">
             <img src={gtav} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/leagueoflegends">
+          <Link to="/menu/leagueoflegends">
             <img src={lol} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/rocketleague">
+          <Link to="/menu/rocketleague">
             <img src={rocketleague} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/rainbowsix">
+          <Link to="/menu/rainbowsix">
             <img src={r6} alt='descrição' width={290} />
           </Link>
       

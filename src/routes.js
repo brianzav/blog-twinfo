@@ -54,7 +54,7 @@ function RouterApp(){
         <Router>
             <Header/>
             <Routes>
-                <Route exact path="/menu" element={<Menu />} />
+                <Route exact path="/" element={<Menu />} />
                 <Route exact path="/noticias" element={<Noticias />} />
                 <Route exact path="/streamer" element={<Streamer />} />
                 <Route exact path="/menu/csgo" element={<Csgo />} />

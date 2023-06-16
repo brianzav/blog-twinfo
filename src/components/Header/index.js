@@ -1,6 +1,6 @@
 import './estilos.css'; // Importe o arquivo CSS
 import logo from '../../img/logo.png';
-import { BiChevronsRight, BiMessageAltError, BiGroup, BiJoystick, BiHome, BiBell} from "react-icons/bi";
+import { BiChevronsRight, BiMessageAltError, BiGroup, BiHome, BiBell} from "react-icons/bi";
 import  Script from "./script1";
 import { Link } from 'react-router-dom';
 
@@ -32,9 +32,9 @@ const Headerr = () => {
         <div class="menu">
           <ul class="menu-links">
             <li class="nav-link">
-              <Link to="/menu">
-                <BiJoystick class="icon"></BiJoystick>
-                <span class="text nav-text">Jogos</span>
+              <Link to="/">
+                <BiHome class="icon"></BiHome>
+                <span class="text nav-text">Home</span>
               </Link>
             </li>
             <li class="nav-link">

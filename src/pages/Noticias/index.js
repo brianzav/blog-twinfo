@@ -1,12 +1,13 @@
 import React from "react";
-
+import Main from '../../components/Main';
+import '../Noticias/Noticias.css'
 
 function Noticias(){
     return(
         
-    <div>
+    <div class="videoo">
         
-        
+        <Main/>
         
     </div>
 

@@ -11,49 +11,54 @@ import rocketleague from '../../img/Rocket.png';
 import r6 from '../../img/R6.png';
 import './imgs.css';
 import Main from '../../components/Main';
+import gau from '../../img/gaulesNoticia.png'
 
 function Menu() {
   return (
     
     <div class="listarea">
       <Main/> 
-      <h2>
-        <span class="filtro">Escolha a Categoria de Streamers</span>
-      </h2>
+    <div class='filtro'>
+        <h2>Escolha a <span> Categoria </span> de Streamers</h2>
+        <img src={gau} class="noticia"></img>
+        <Link to="/noticias">
+        <button class="button-6" role="button">Mais informações</button>
+        </Link>
+    </div>
       <div class="itens">
-          <Link to="/menu/csgo">
+          <Link to="/csgo">
             <img src={csgo} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/fortnite">
+          <Link to="/fortnite">
             <img src={fornite} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/valorant">
+          <Link to="/valorant">
             <img src={valorant} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/warzone">
+          <Link to="/warzone">
             <img src={warzone} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/fifa">
+          <Link to="/fifa">
             <img src={fifa} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/gtav">
+          <Link to="//gtav">
             <img src={gtav} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/leagueoflegends">
+          <Link to="/leagueoflegends">
             <img src={lol} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/rocketleague">
+          <Link to="/rocketleague">
             <img src={rocketleague} alt='descrição' width={290} />
           </Link>
 
-          <Link to="/menu/rainbowsix">
+          <Link to="/rainbowsix">
             <img src={r6} alt='descrição' width={290} />
           </Link>
       

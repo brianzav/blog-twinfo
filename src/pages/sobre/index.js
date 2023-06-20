@@ -1,8 +1,7 @@
 import React from "react";
-import Main from '../../components/Main';
 import './sobre.css'
 
-function Noticias(){
+function Sobre(){
     return(
         
     <div class='fale'>
@@ -31,4 +30,4 @@ function Noticias(){
 
     }
 
-export default Noticias;
+export default Sobre;

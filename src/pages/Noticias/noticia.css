@@ -1,0 +1,62 @@
+.main{
+   
+    width: 150%;
+    height: 100vh;
+}
+
+.capa{
+    
+    padding-left: 50px;
+    width: 100%;
+    height: 125%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 40vh;
+    padding-left: 20vh;
+    color: azure;
+    
+}
+
+
+.content1{
+    position: absolute;
+    margin-top: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.hltv{
+    margin-left: 30px;
+}
+.escrita{
+    position: absolute;
+    margin-top: 75%;
+    padding-bottom: 8vh;    
+    display: flex;
+    align-items: start;
+    color: black;
+    padding-right: 50px;
+   
+    
+}
+p{
+    padding-top: 20px;
+    
+}
+h2{
+    font-size: 20px;
+}
+h3{ 
+    
+    font-size: 30px;
+}

@@ -6,10 +6,6 @@ const body = document.querySelector("body"),
 
     sidebar.classList.toggle("close");
 
-    // toggle.addEventListener("click", ()=>{
-    //     sidebar.classList.toggle("close");
-    // })
-
 };
   
   export default Script;

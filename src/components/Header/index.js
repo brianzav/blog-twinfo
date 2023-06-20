@@ -1,6 +1,6 @@
 import './estilos.css'; // Importe o arquivo CSS
 import logo from '../../img/logo.png';
-import { BiChevronsRight, BiMessageAltError, BiGroup, BiHome, BiBell} from "react-icons/bi";
+import { BiChevronsRight, BiMessageAltError, BiGroup, BiHome, BiBell, BiMessageDetail} from "react-icons/bi";
 import  Script from "./script1";
 import { Link } from 'react-router-dom';
 
@@ -44,16 +44,22 @@ const Headerr = () => {
               </Link>
             </li>
             <li class="nav-link">
-              <Link to="/fale-conosco">
+              <a href="/noticia">
                 <BiBell class="icon"></BiBell>
-                <span class="text nav-text">Fale Conosco</span>
-              </Link>
+                <span class="text nav-text">Noticia</span>
+              </a>
             </li>
             <li class="nav-link">
               <a href="/sobre">
                 <BiMessageAltError class="icon"></BiMessageAltError>
                 <span class="text nav-text">Sobre</span>
               </a>
+            </li>
+            <li class="nav-link">
+              <Link to="/fale-conosco">
+                <BiMessageDetail class="icon"></BiMessageDetail>
+                <span class="text nav-text">Fale Conosco</span>
+              </Link>
             </li>
             
           </ul>

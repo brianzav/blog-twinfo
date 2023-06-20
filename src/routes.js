@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Menu from './pages/Menu';
+import Noticia from './pages/Noticias';
 import Sobre from './pages/sobre';
 import Streamer from './pages/Streamer';
 import Header from './components/Header'
@@ -56,6 +57,7 @@ function RouterApp(){
             <Routes>
                 <Route exact path="/" element={<Menu />} />
                 <Route exact path="/sobre" element={<Sobre />} />
+                <Route exact path="/noticia" element={<Noticia />} />
                 <Route exact path="/streamer" element={<Streamer />} />
                 <Route exact path="/fale-conosco" element={<Fale />} />
                 <Route exact path="/menu/csgo" element={<Csgo />} />
